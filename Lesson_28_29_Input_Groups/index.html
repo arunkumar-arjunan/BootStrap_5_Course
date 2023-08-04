@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test BootStrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form action="">
+                <div class="mb-3">
+                    <h3>Without Input Group</h3>
+                    <div>
+                        <input class="form-control" type="text" placeholder="Shalini">
+                        <span class="input-group-text">Username</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <h3>With Input Group</h3>
+                    <div class="input-group">
+                        <span class="input-group-text">Username</span>
+                        <input class="form-control" type="text" placeholder="Shalini">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Shalini">
+                        <span class="input-group-text">Username</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">$</span>
+                        <input class="form-control" type="text" placeholder="15,000">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Username">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" placeholder="Twitter">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group flex-nowrap">
+                        <input class="form-control" type="text" placeholder="Username">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" placeholder="Twitter">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group input-group-sm">
+                        <input class="form-control" type="text" placeholder="Username">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" placeholder="Twitter">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <input type="checkbox" class="form-check-input mt-0">
+                        </span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <input type="radio" class="form-check-input mt-0">
+                        </span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Full Name</span>
+                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Donation</span>
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script>
+    const checkbox = document.getElementById('defaultCheckBox2').indeterminate = true;
+</script>
+</body>
+</html>
