@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test BootStrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <form action="">
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox">
+                    <label for="defaultCheckBox" class="form-check-label">Default Check box</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox1" checked>
+                    <label for="defaultCheckBox1" class="form-check-label">Default Check box</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox2" checked>
+                    <label for="defaultCheckBox2" class="form-check-label">Default Check box</label>
+                </div>
+                <div class="form-check form-check-reverse">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox">
+                    <label for="defaultCheckBox" class="form-check-label">Default Check box</label>
+                </div>
+                <div class="form-check form-check-reverse">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox1" checked>
+                    <label for="defaultCheckBox1" class="form-check-label">Default Check box</label>
+                </div>
+                <div class="form-check form-check-reverse">
+                    <input type="checkbox" class="form-check-input" value="Checked" id="defaultCheckBox2" checked>
+                    <label for="defaultCheckBox2" class="form-check-label">Default Check box</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script>
+    const checkbox = document.getElementById('defaultCheckBox2').indeterminate = true;
+</script>
+</body>
+</html>

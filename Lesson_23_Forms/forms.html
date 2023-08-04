@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test BootStrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .h-10{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form action="">
+                <fieldset>
+                    <legend>Login to continue</legend>
+                    <div class="mb-3">
+                        <label class="form-label" for="u_name">Username</label>
+                        <input class="form-control" type="text" id="u_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="u_pass">Password</label>
+                        <input class="form-control" type="password" id="u_pass" required>
+                    </div>
+                    <button class="btn btn-success" type="submit">Login</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

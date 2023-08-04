@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test BootStrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form action="">
+                <div class="mb-3">
+                    <label class="form-label" for="custom_range">Range</label>
+                    <input class="form-range" type="range" id="custom_range">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="custom_range1">Range Disabled</label>
+                    <input class="form-range" type="range" id="custom_range1" disabled>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="custom_range2">Range 0 to 5</label>
+                    <input class="form-range" type="range" id="custom_range2" min="0" max="5">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="custom_range3">Range 0 to 5 and 0.5</label>
+                    <input class="form-range" type="range" id="custom_range3" min="0" max="5" step="0.5">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script>
+    const checkbox = document.getElementById('defaultCheckBox2').indeterminate = true;
+</script>
+</body>
+</html>
